@@ -4,7 +4,7 @@ This is an exercise for a Georgia Tech Full Stack Development Bootcamp Section
 ## Video Demonstration   
 [![Demonstration Video Thumbnail](./ReadMe/demo_thumbnail.jpg)](https://youtu.be/iC5MR6ARu-I)   
 
-
+## Video Requirements  
 Time |   Requirement
 -----|----------------
 0:31 | The walkthrough video must demonstrate how to create the schema from the MySQL shell.
