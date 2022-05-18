@@ -17,3 +17,28 @@ Time |   Requirement
 6:05 | Tags...
 
 ## What's In The Box  
+
+  File                 | Content
+  ---------------------|-----------------------------------------------
+  README.md            | This document.
+  config/connection.js | Sequalize mySQL connection handler.
+  db/schema.sql
+  models/Category.js
+  models/Product.js
+  models/ProductTag.js
+  models/Tag.js
+  models/index.js
+  package-lock.json
+  package.json
+  routes/api/category-routes.js
+  routes/api/index.js
+  routes/api/product-routes.js
+  routes/api/search-routes.js
+  routes/api/tag-routes.js
+  routes/index.js
+  seeds/category-seeds.js
+  seeds/index.js
+  seeds/product-seeds.js
+  seeds/product-tag-seeds.js
+  seeds/tag-seeds.js
+  server.js
