@@ -18,27 +18,24 @@ Time |   Requirement
 
 ## What's In The Box  
 
-  File                 | Content
-  ---------------------|-----------------------------------------------
-  README.md            | This document.
-  config/connection.js | Sequalize mySQL connection handler.
-  db/schema.sql
-  models/Category.js
-  models/Product.js
-  models/ProductTag.js
-  models/Tag.js
-  models/index.js
-  package-lock.json
-  package.json
-  routes/api/category-routes.js
-  routes/api/index.js
-  routes/api/product-routes.js
-  routes/api/search-routes.js
-  routes/api/tag-routes.js
-  routes/index.js
-  seeds/category-seeds.js
-  seeds/index.js
-  seeds/product-seeds.js
-  seeds/product-tag-seeds.js
-  seeds/tag-seeds.js
-  server.js
+  File                          | Content
+  ------------------------------|-----------------------------------------------
+  README.md                     | This document.
+  config/connection.js          | Sequalize mySQL connection handler.
+  db/schema.sql                 | mySQL source code to initialize mySQL database
+  models/Category.js            | Schema for declaring table columns and constraint for Category.
+  models/Product.js             | Schema for declaring table columns and constraint for Product.
+  models/ProductTag.js          | Schema for declaring table columns and constraint for ProductTag.
+  models/Tag.js                 | Schema for declaring table columns and constraint for Tag
+  models/index.js               | Defines relations btween table types and columns.
+  routes/api/category-routes.js | Evokes handlers on URL templates for categories.
+  routes/api/index.js           | Directs incoming URL templates to category, product, and tag handlers. 
+  routes/api/product-routes.js  | Evokes handlers on URL templates for products.
+  routes/api/tag-routes.js      | Evokes handlers on URL templates for tag.
+  routes/index.js               | Directs incoming API URL template types to the api/ folder.
+  seeds/category-seeds.js       | DB seed utility for category.
+  seeds/index.js                | DB seed utility master.
+  seeds/product-seeds.js        | DB seed utility for product.
+  seeds/product-tag-seeds.js    | DB seed utility for productTag.
+  seeds/tag-seeds.js            | DB seed utility for tag.
+  server.js                     | Evokes and initializes the server.
